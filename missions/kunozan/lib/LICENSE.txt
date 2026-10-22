@@ -1,0 +1,11 @@
+このフォルダと ../model/ には、次のオープンソースを同梱しています。
+
+■ TensorFlow.js 4.22.0（lib/tf.min.js）
+  Copyright 2024 Google LLC. All Rights Reserved.
+  Apache License, Version 2.0  https://www.apache.org/licenses/LICENSE-2.0
+  https://github.com/tensorflow/tfjs
+
+■ MobileNet v1 (alpha 0.25, 224px)（model/）
+  Google の tfjs-models で公開されている学習済みモデルを、特徴量（256次元）を出す部分だけに切り詰めたもの。
+  Apache License, Version 2.0
+  元データ: https://storage.googleapis.com/tfjs-models/tfjs/mobilenet_v1_0.25_224/model.json
